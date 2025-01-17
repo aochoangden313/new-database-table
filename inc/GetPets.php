@@ -82,7 +82,7 @@ class GetPets
                 return "maxweight <= %d";
             case "minyear":
                 return "birthyear >= %d";
-            case "minyear":
+            case "maxyear":
                 return "birthyear <= %d";
             default:
                 return $index . " = %s";
